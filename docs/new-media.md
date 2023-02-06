@@ -273,6 +273,12 @@ pageClass: routes
 
 </Route>
 
+## CoinDesk Consensus Magazine
+
+### 新闻周刊
+
+<Route author="jameshih" example="/coindesk/consensus-magazine" path="/coindesk/consensus-magazine"/>
+
 ## Common App
 
 ### Blog
@@ -2857,6 +2863,16 @@ column 为 third 时可选的 category:
 
 </Route>
 
+## 链捕手 ChainCatcher
+
+### 首页
+
+<Route author="TonyRL" example="/chaincatcher" path="/chaincatcher"  radar="1" rssbud="1"/>
+
+### 快讯
+
+<Route author="TonyRL" example="/chaincatcher/news" path="/chaincatcher/news"  radar="1" rssbud="1"/>
+
 ## 链新闻 ABMedia
 
 ### 首页最新新闻
@@ -2945,11 +2961,11 @@ column 为 third 时可选的 category:
 
 ### 新闻快讯
 
-<Route author="Fatpandac" example="/blockbeats/flash" path="/blockbeats/:channel?" :paramsDesc="['类型，见下表，默认为快讯']">
+<Route author="Fatpandac jameshih" example="/blockbeats/newsflash" path="/blockbeats/:channel?" :paramsDesc="['类型，见下表，默认为快讯']">
 
-|   快讯  |  新闻  |
-| :---: | :--: |
-| flash | news |
+|     快讯    |    文章   |
+| :-------: | :-----: |
+| newsflash | article |
 
 </Route>
 
@@ -4621,6 +4637,16 @@ QueryString:
 |      | zh-hk | zh-tw |
 
 </Route>
+
+## 字节点击
+
+### 首页
+
+<Route author="TonyRL" example="/byteclicks" path="/byteclicks" radar="1" />
+
+### 标签
+
+<Route author="TonyRL" example="/byteclicks/tag/人工智能" path="/byteclicks/tag/:tag" radar="1" :paramsDesc="['标签，可在URL中找到']"/>
 
 ## 自由微信
 
