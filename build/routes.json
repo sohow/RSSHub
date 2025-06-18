@@ -41791,6 +41791,40 @@
         "location": "beijing/bphc/index.ts",
         "module": "() => import('@/routes/gov/beijing/bphc/index.ts')"
       },
+      "/beijing/land/:tab/:filter?/:limit?": {
+        "path": "/beijing/land/:tab/:filter?/:limit?",
+        "categories": [
+          "government"
+        ],
+        "example": "/gov/beijing/land/tdcjylb",
+        "parameters": {
+          "tab": "tdcjylb: 土地成交一览表",
+          "filter": "过滤条件"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "yewu.ghzrzyw.beijing.gov.cn/gwxxfb/tdsc/:tab.html",
+              "https://yewu.ghzrzyw.beijing.gov.cn/gwxxfb/tdsc/:tab.html"
+            ],
+            "target": ""
+          }
+        ],
+        "name": "北京土地拍卖信息",
+        "maintainers": [
+          "sohow"
+        ],
+        "location": "beijing/ghzrzyw/land.ts",
+        "module": "() => import('@/routes/gov/beijing/ghzrzyw/land.ts')"
+      },
       "/beijing/jw/tzgg": {
         "path": "/beijing/jw/tzgg",
         "categories": [

@@ -15171,6 +15171,17 @@
   },
   "beijing.gov.cn": {
     "_name": "上海市人民政府",
+    "yewu.ghzrzyw": [
+      {
+        "title": "北京土地拍卖信息",
+        "docs": "https://docs.rsshub.app/routes/government",
+        "source": [
+          "/gwxxfb/tdsc/:tab.html",
+          "//yewu.ghzrzyw.beijing.gov.cn/gwxxfb/tdsc/:tab.html"
+        ],
+        "target": "/gov/beijing/land/:tab/:filter?/:limit?"
+      }
+    ],
     "jw": [
       {
         "title": "通知公告",

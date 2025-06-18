@@ -3064,6 +3064,9 @@
     "TonyRL"
   ],
   "/gov/beijing/bphc/*": [],
+  "/gov/beijing/land/:tab/:filter?/:limit?": [
+    "sohow"
+  ],
   "/gov/beijing/jw/tzgg": [
     "nczitzk"
   ],
