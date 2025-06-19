@@ -41863,6 +41863,40 @@
         "location": "beijing/kw/index.ts",
         "module": "() => import('@/routes/gov/beijing/kw/index.ts')"
       },
+      "/beijing/zjwxk/:ddlYT?/:ddlQX?/:rblFWType1?": {
+        "path": "/beijing/zjwxk/:ddlYT?/:ddlQX?/:rblFWType1?",
+        "categories": [
+          "government"
+        ],
+        "example": "/gov/beijing/zjwxk",
+        "parameters": {
+          "ddlQX": "所属区县",
+          "rblFWType1": "期房/现房",
+          "ddlYT": "用途"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "bjjs.zjw.beijing.gov.cn/eportal/ui?pageId=307670&isTrue=1"
+            ],
+            "target": ""
+          }
+        ],
+        "name": "北京市住建委新建商品房预售许可公示",
+        "maintainers": [
+          "sohow"
+        ],
+        "location": "beijing/zjwxk/index.ts",
+        "module": "() => import('@/routes/gov/beijing/zjwxk/index.ts')"
+      },
       "/caac/cjwt/:category?": {
         "path": "/caac/cjwt/:category?",
         "categories": [

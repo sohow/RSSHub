@@ -15191,6 +15191,16 @@
         ],
         "target": "/gov/beijing/jw/tzgg"
       }
+    ],
+    "bjjs.zjw": [
+      {
+        "title": "北京市住建委新建商品房预售许可公示",
+        "docs": "https://docs.rsshub.app/routes/government",
+        "source": [
+          "/eportal/ui?pageId=307670&isTrue=1"
+        ],
+        "target": "/gov/beijing/zjwxk/:ddlYT?/:ddlQX?/:rblFWType1?"
+      }
     ]
   },
   "caac.gov.cn": {
