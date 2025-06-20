@@ -5812,6 +5812,19 @@
       }
     ]
   },
+  "augmentcode.com": {
+    "_name": "Augment Code",
+    ".": [
+      {
+        "title": "Blog",
+        "docs": "https://docs.rsshub.app/routes/programming",
+        "source": [
+          "/blog"
+        ],
+        "target": "/augmentcode/blog"
+      }
+    ]
+  },
   "baai.ac.cn": {
     "_name": "北京智源人工智能研究院",
     "hub": [
@@ -38481,6 +38494,19 @@
           "/wiki/Special:%E6%96%B0%E9%97%BB%E8%AE%A2%E9%98%85"
         ],
         "target": "/wikinews/latest"
+      }
+    ]
+  },
+  "windsurf.com": {
+    "_name": "Windsurf",
+    ".": [
+      {
+        "title": "Changelog",
+        "docs": "https://docs.rsshub.app/routes/programming",
+        "source": [
+          "/changelog"
+        ],
+        "target": "/windsurf/changelog"
       }
     ]
   },
