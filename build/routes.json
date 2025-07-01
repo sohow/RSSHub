@@ -61821,6 +61821,51 @@
     "description": "",
     "lang": "zh-CN"
   },
+  "lianjia": {
+    "routes": {
+      "/:city?/:type?/:query?": {
+        "path": "/:city?/:type?/:query?",
+        "categories": [
+          "other"
+        ],
+        "example": "/lianjia/bj/zufang/rs西山锦绣府",
+        "parameters": {
+          "city": "城市子域名",
+          "type": "zufang",
+          "query": "query"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "lianjia.com/zufang"
+            ],
+            "target": ""
+          }
+        ],
+        "name": "链家",
+        "maintainers": [
+          "sohow"
+        ],
+        "location": "index.ts",
+        "module": "() => import('@/routes/lianjia/index.ts')"
+      }
+    },
+    "name": "链家",
+    "apiRoutes": {},
+    "url": "www.lianjia.cn",
+    "categories": [
+      "other"
+    ],
+    "lang": "zh-CN"
+  },
   "lianxh": {
     "routes": {
       "/:category?": {

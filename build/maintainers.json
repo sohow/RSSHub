@@ -4653,6 +4653,9 @@
   "/lhratings/research/:type?": [
     "nczitzk"
   ],
+  "/lianjia/:city?/:type?/:query?": [
+    "sohow"
+  ],
   "/lianxh/:category?": [
     "nczitzk"
   ],

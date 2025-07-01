@@ -22392,6 +22392,19 @@
       }
     ]
   },
+  "lianjia.com": {
+    "_name": "链家",
+    ".": [
+      {
+        "title": "链家",
+        "docs": "https://docs.rsshub.app/routes/other",
+        "source": [
+          "/zufang"
+        ],
+        "target": "/lianjia/:city?/:type?/:query?"
+      }
+    ]
+  },
   "lianxh.cn": {
     "_name": "连享会",
     "www": [
